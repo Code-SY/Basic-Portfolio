@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: lightgray;
+}
+
+#header {
+    margin-bottom: 10px;
+    border-bottom: 3px gray solid;
+    background-color: white;
+}
+
+#headerContent {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#title {
+    padding: 20px;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-color: seagreen;
+}
+
+#navigation {
+    padding-top: 20px;
+    float: right;
+}
+
+#navigation a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.clearFloat {
+    clear: left;
+    clear: right;
+}
+
+#content {
+    padding: 10px;
+    width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+}
+
+#contentTitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: seagreen;
+}
+
+#content img {
+    float: left;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 3px green solid;
+    font-size: 0.5em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+}
+
+span.clear {
+    clear: left;
+    display: block;
+}
+
+.portfolioItem {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+}
+.portfolioItem img {
+    width: 200px;
+    height: 200px;
+}
+
+.portfolioTitle {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 0px;
+    bottom: 10px;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+label {
+    color: darkgray;
+    margin-bottom: 5px;
+}
+
+input[type=text], select {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+}
+  
+input[type=submit] {
+    background-color: seagreen;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
