@@ -87,7 +87,7 @@ a.navigationLast {
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top: 3px green solid;
+    border-top: 3px #4aaaa5 solid;
     font-size: 0.5em;
     position: fixed;
     left: 0;
